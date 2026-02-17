@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.header{
+    width: 100%;
+    height: 12vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: linear-gradient(to top, #00fff2, #bbf500);
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    gap: 20px;
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.li{
+    text-decoration: none;
+}
+.home-section{
+    width: 100%;
+    height: 88vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+#home{
+    justify-content: space-around;
+    align-items: center;
+    display: block;
+    padding: 20vh 50vh;
+}
+#title{
+    color: rgb(2, 49, 2);
+}
+.projects-section{
+    width: 100%;
+    height: 88vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom,#00fff2, #bb2047, #bbf500);
+    color: white;
+}
+.view{
+    padding: 10px 20px;
+    background-color: #6a00ff;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.project{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: 20px;
+}
+#projects h2{
+    color: rgb(2, 49, 2);
+}
+.about-section{
+    width: 100%;
+    height: 88vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+}
+.contact-section{
+    width: 100%;
+    height: 88vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    text-align: center;
+}
